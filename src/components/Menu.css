@@ -1,0 +1,56 @@
+.menu-container {
+    background-color: rgb(114, 5, 5);
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    height: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.list-menu {
+    padding: 0;
+}
+
+.list-menu li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.list-menu li .menu-option {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list-menu li .menu-option:hover {
+    background-color: #555;
+}
+.back-arrow {
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #f0e3e3; /* Couleur de la flèche */
+    margin-top: 10px; /* Ajustez la marge selon vos besoins */
+    margin-left: 10px; /* Ajustez la marge selon vos besoins */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
